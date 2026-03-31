@@ -75,7 +75,7 @@ def main():
             st.info("표준 모드: 이미지의 명암을 ASCII 문자로 표현합니다.")
             
         st.divider()
-        st.markdown("### 💡 공유 팁\n이 앱을 배포하면 동료 연구자들도 링크 하나로 접속할 수 있습니다.")
+        st.markdown("")
 
     uploaded_file = st.file_uploader("사진 파일을 업로드하세요 (JPG, PNG, GIF 등)", type=["jpg", "jpeg", "png", "bmp", "gif"])
 
